@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
     margin: 0;
@@ -8,7 +8,6 @@ body {
 /* Typography and layout reset */
 ul, li, h1, h2, h3, p {
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 
@@ -24,15 +23,10 @@ a:focus {
 
 /* Header */
 .header {
-    padding: 20px;
     background-color: #ffffff;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 /* Navigation */
-.navbar {
-    display: block;
-}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -64,6 +58,10 @@ a:focus {
     color: #404BBF;
 }
 
+.menu-link {
+    font-weight: 500;
+}
+
 .contacts {
     font-style: normal;
 }
@@ -82,7 +80,6 @@ a:focus {
 /* Main Section */
 .order {
     text-align: center;
-    padding: 100px 20px;
     background-color: #2E2F42;
     color: #ffffff;
 }
@@ -103,9 +100,7 @@ a:focus {
     background-color: #4D5AE5;
     color: #ffffff;
     border: none;
-    padding: 16px 32px;
     cursor: pointer;
-    border-radius: 4px;
     letter-spacing: 0.04em;
 }
 
@@ -116,7 +111,6 @@ a:focus {
 
 /* Features Section */
 .features {
-    padding: 120px 20px;
     background-color: #ffffff;
 }
 
@@ -138,7 +132,6 @@ a:focus {
 /* Team Section */
 .team {
     background-color: #F4F4FD;
-    padding: 120px 20px;
     text-align: center;
 }
 
@@ -152,12 +145,9 @@ a:focus {
     color: #2e2f42;
 }
 
-.team-list {
-    background-color: #FFFFFF
-}
-
 .team-member {
     margin-bottom: 40px;
+    background-color: #FFFFFF;
 }
 
 .team-member-name {
@@ -178,7 +168,6 @@ a:focus {
 
 /* Portfolio Section */
 .portfolio {
-    padding: 120px 20px;
     background-color: #ffffff;
 }
 
@@ -202,6 +191,8 @@ a:focus {
     font-weight: 500;
     line-height: 1.2;
     margin: 8px 0;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-item-desc {
@@ -214,7 +205,6 @@ a:focus {
 /* Footer Section */
 .footer {
     background-color: #2E2F42;
-    padding: 100px 20px;
     color: #ffffff;
     text-align: left;
 }
@@ -225,7 +215,6 @@ a:focus {
     font-weight: 700;
     color: #4D5AE5;
     line-height: 1.17;
-    display: inline-block;
     margin-bottom: 16px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
